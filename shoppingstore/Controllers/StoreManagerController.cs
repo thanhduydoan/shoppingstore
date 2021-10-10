@@ -10,7 +10,6 @@ using shoppingstore.Models;
 
 namespace shoppingstore.Controllers
 {
-    [Authorize(Users = "Ali@gmail.com,Ahmed@gmail.com")]
     public class StoreManagerController : Controller
     {
         private ShoppingStoreEntities db = new ShoppingStoreEntities();

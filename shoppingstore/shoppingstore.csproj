@@ -142,9 +142,9 @@
     <Compile Include="Migrations\202110061319389_create_table_Produces.Designer.cs">
       <DependentUpon>202110061319389_create_table_Produces.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202110061419335_Alter_table.cs" />
-    <Compile Include="Migrations\202110061419335_Alter_table.Designer.cs">
-      <DependentUpon>202110061419335_Alter_table.cs</DependentUpon>
+    <Compile Include="Migrations\202110100254201_create_table_Categories.cs" />
+    <Compile Include="Migrations\202110100254201_create_table_Categories.Designer.cs">
+      <DependentUpon>202110100254201_create_table_Categories.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cart.cs" />
@@ -235,8 +235,8 @@
     <EmbeddedResource Include="Migrations\202110061319389_create_table_Produces.resx">
       <DependentUpon>202110061319389_create_table_Produces.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202110061419335_Alter_table.resx">
-      <DependentUpon>202110061419335_Alter_table.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202110100254201_create_table_Categories.resx">
+      <DependentUpon>202110100254201_create_table_Categories.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

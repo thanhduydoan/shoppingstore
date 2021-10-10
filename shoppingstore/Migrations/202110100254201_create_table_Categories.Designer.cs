@@ -7,13 +7,13 @@ namespace shoppingstore.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Alter_table : IMigrationMetadata
+    public sealed partial class create_table_Categories : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Alter_table));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(create_table_Categories));
         
         string IMigrationMetadata.Id
         {
-            get { return "202110061419335_Alter_table"; }
+            get { return "202110100254201_create_table_Categories"; }
         }
         
         string IMigrationMetadata.Source
